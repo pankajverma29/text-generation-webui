@@ -1,5 +1,7 @@
 import os
 import warnings
+# os.environ['HTTP_PROXY'] = 'zproxy-global.shell.com:80'
+# os.environ['HTTPS_PROXY'] = 'zproxy-global.shell.com:80'
 
 import modules.one_click_installer_check
 from modules.block_requests import OpenMonkeyPatch, RequestBlocker
